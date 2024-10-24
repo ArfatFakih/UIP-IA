@@ -1,0 +1,45 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #650a3a; /* Dark red/purple background */
+  }
+  
+  .navbar-logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links li {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .navbar-buttons .login-btn,
+  .navbar-buttons .signup-btn {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .login-btn {
+    background-color: transparent;
+    color: white;
+  }
+  
+  .signup-btn {
+    background-color: #ff5773;
+    color: white;
+  }
+  
