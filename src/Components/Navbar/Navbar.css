@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #650a3a; /* Dark red/purple background */
+    /* background-color: #650a3a;  */
   }
   
   .navbar-logo {
@@ -39,7 +39,10 @@
   }
   
   .signup-btn {
-    background-color: #ff5773;
-    color: white;
+    /* background-color: #D87199; */
+    background-image: linear-gradient(to right, #D87199, white);
+    color: black;
   }
+
+
   

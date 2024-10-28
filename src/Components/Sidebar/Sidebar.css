@@ -1,0 +1,67 @@
+/* Sidebar.css */
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    /* background-color: #400B24; */
+    color: white;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebar .profile {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar .profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #ff6699; /* Profile image border color */
+  }
+  
+  .sidebar .profile h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+  }
+  
+  .sidebar .profile p {
+    font-size: 0.9em;
+    color: #c4c4c4;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .sidebar nav ul li {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar nav ul li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .sidebar nav ul li:hover {
+    background-color: #ff6699; /* Hover background color */
+  }
+  
+  .sidebar nav ul li:hover img {
+    filter: brightness(0) invert(1); /* Changes icon color on hover */
+  }
+  
+  .sidebar nav ul li:hover, .sidebar nav ul li:hover p {
+    color: #fff;
+  }
+  

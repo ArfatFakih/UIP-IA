@@ -1,0 +1,77 @@
+/* HackathonCard.css */
+
+/* Hackathon Card Styling */
+.hackathon-card {
+    background-color: #64062B;
+    border-radius: 20.78px;
+    width: 250px;
+    /* padding: 15px; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hackathon-card-image img {
+    width: 100%;
+    height: 150px;
+    padding-top: 0px;
+    object-fit: cover;
+    border-top-left-radius: 20.78px;
+    border-top-right-radius: 20.78px;
+
+    /* margin-bottom: 10px; */
+  }
+  
+  .hackathon-card-content h3 {
+    font-size: 18.89px;
+    color: white; /* Light pink color for the card title */
+    margin: 10px 0;
+  }
+
+  .hackathon-card-content{
+    background-color: #64062B;
+    padding: 10px;
+    border-bottom-left-radius: 20.78px;
+    border-bottom-right-radius: 20.78px;
+  }
+  
+  .hackathon-card-content p {
+    font-size: 0.85em; 
+    color: #c4c4c4; /* Light gray color for the card description */
+    margin-bottom: 15px;
+  }
+  
+  /* Button Styling */
+  .hackathon-card-buttons {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .quick-apply{
+    background-image: linear-gradient(to right, #D87199, white);
+    color: black;
+    border: none;
+    border-radius: 36.84px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+  }
+
+  .know-more{
+    background-color: transparent; /* Light pink for buttons */
+    color: white;
+    border: 2px solid;
+    border-radius: 36.84px;
+    padding: 5px 10px;
+    cursor: pointer; 
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+  }
+  
+  .quick-apply:hover, .know-more:hover {
+    background-color: #ff4d88; /* Darker pink on hover */
+  }
+  

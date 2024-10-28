@@ -1,0 +1,149 @@
+/* General Styling for the Hackathon Section */
+.hackathon-section {
+  padding: 20px;
+  padding-right: 10px;
+  border-radius: 20px;
+  background-color: #3B002E;
+  color: white;
+  overflow-y: auto;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar-container {
+  position: relative;
+  width: 60%;
+}
+
+.search-bar {
+  padding: 10px 10px 10px 40px;
+  width: 43%;
+  border-radius: 20px;
+  border: none;
+  font-size: 1em;
+  background-color: #fff;
+  color: #333;
+}
+
+.search-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 1.2em;
+}
+
+.bootcamp-button {
+  padding: 10px 20px;
+  margin-right: 13px;
+  background-image: linear-gradient(to right, #DB7AA4, white);
+  color: black;
+  font-weight: 700;
+  border: none;
+  border-radius: 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.intro-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 31.17px;
+  margin-bottom: 15px;
+  gap: 50px;
+  margin-right: 10px;
+}
+
+.intro-text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.intro-text h2 {
+  color: black;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.intro-text p {
+  color: black;
+  font-size: 0.85em;
+  line-height: 1.5;
+}
+
+.puzzle-image {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.hackathon-grid {
+  display: flex;
+  height: 60vh;
+  gap: 25px;
+  overflow-x: hidden;
+  margin-bottom: 10px;
+}
+
+.carousel-navigation {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.nav-image {
+  margin-top: 10px;
+  width: 60px;
+  height: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.nav-image:hover {
+  transform: scale(1.1);
+}
+
+.carousel-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.indicator-dot {
+  width: 12px;
+  height: 12px;
+  background-color: #888;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.indicator-dot.active {
+  background-color: #DB7AA4;
+}
+
+
+.last-bottom-part{
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px;
+  margin-right: 10px;
+}
