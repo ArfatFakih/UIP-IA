@@ -1,0 +1,115 @@
+.user-settings-container {
+    background-color: white;
+    margin: 20px;
+    margin-top: 15px;
+    padding: 1.5rem;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    width: 28rem;
+    height: 31.5rem;
+  }
+  
+  .section-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #5e0024;
+    margin-bottom: 1rem;
+  }
+  
+  .settings-section {
+    margin-bottom: 1rem;
+  }
+  
+  .subsection-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #5e0024;
+    margin-bottom: 0.5rem;
+  }
+  
+  .details-grid, .password-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .detail-input-group label {
+    font-size: 0.9rem;
+    color: #5e0024;
+    margin-bottom: 0.3rem;
+  }
+
+  .detail-input-group{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detail-input-group input {
+    width: 12.2rem;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+  }
+  
+  .phone-input .phone-input1{
+    width: 3rem;
+  }
+
+  .phone-input .phone-input2{
+    width: 8.7rem;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    font-size: 0.9rem;
+    color: #5e0024;
+    margin-bottom: 0.3rem;
+  }
+  
+  .input-group input {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+  }
+  
+  .phone-group .phone-input {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .user-button{
+    display: flex;
+  }
+  
+  .save-button {
+    background-color: #5e0024;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background-color: #72002e;
+  }
+  
+  .forgot-password {
+    text-decoration: underline;
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+  }
+  

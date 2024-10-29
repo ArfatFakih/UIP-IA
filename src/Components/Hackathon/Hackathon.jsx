@@ -5,6 +5,8 @@ import HackathonCard from '../HackathonCard/HackathonCard';
 import hackathonImage from '../assets/hackathon_img.png';
 import hackathonImage1 from '../assets/hackathon1_img.png';
 import hackathonImage2 from '../assets/hackathon2_img.png';
+import hackathonImage3 from '../assets/hackathon3_img.png';
+import hackathonImage4 from '../assets/hackathon4_img.png';
 import { FaSearch } from 'react-icons/fa';
 import puzzleImage from '../assets/puzzle_img.png';
 import arrow_left from '../assets/arrow_left.png';
@@ -39,14 +41,14 @@ const Hackathon = () => {
     {
       title: 'AgriTech Summit',
       description: 'A hackathon focused on developing tech solutions for agriculture and food sustainability.',
-      image: hackathonImage,
+      image: hackathonImage3,
       quickApply: 'Quick Apply',
       knowMore: 'Know More',
     },
     {
       title: 'Smart City Hack',
       description: 'A 24-hour hackathon to create solutions for smarter,good, safer, and more sustainable cities.',
-      image: hackathonImage1,
+      image: hackathonImage4,
       quickApply: 'Quick Apply',
       knowMore: 'Know More',
     },

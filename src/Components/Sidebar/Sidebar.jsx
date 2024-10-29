@@ -20,8 +20,10 @@ const Sidebar = () => {
       <nav>
         <ul>
           <li>
-            <img src= {profile_edit} alt="Profile" />
-            Profile
+            <Link style={{ textDecoration: 'none', color: 'white'}} to='/profile'>
+              <img src= {profile_edit} alt="Profile" />
+              Profile
+            </Link>
           </li>
           <li>
             <Link style={{ textDecoration: 'none', color: 'white'}} to='/'>
@@ -34,8 +36,10 @@ const Sidebar = () => {
             Teams
           </li>
           <li>
-            <img src= {profile_edit} alt="Hackthons" />
-            Hackthons
+            <Link style={{ textDecoration: 'none', color: 'white'}} to='/hackathon'>
+              <img src= {profile_edit} alt="Hackthons" />
+              Hackthons
+            </Link>
           </li>
           <li>
             <img src= {message_pic} alt="Messages" />

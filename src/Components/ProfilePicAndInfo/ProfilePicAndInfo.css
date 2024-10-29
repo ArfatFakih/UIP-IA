@@ -1,0 +1,60 @@
+.profile-picture-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #ffd6e8;
+    padding: 1rem;
+    border-radius: 20px;
+  }
+  
+  .profile-picture-section {
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 20px;
+  }
+  
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .username {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0.5rem 0 0.2rem 0;
+    color: #5e0024;
+  }
+  
+  .email {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .information-section {
+    background-color: #fff;
+    padding: 1rem;
+    margin-top: 25px;
+    border-radius: 20px;
+  }
+  
+  .information-section h2 {
+    margin-top: 0;
+    color: #5e0024;
+  }
+  
+  .information-section p {
+    margin: 0.6rem 0;
+    color: #333;
+  }
+  
+  .preferences {
+    margin-top: 0.5rem;
+  }
+  
+  .toggle-switch {
+    margin-left: 0.5rem;
+    cursor: pointer;
+  }
+  

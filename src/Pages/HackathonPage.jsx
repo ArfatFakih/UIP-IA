@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Pages/CSS/Chat.css'
+import '../Pages/CSS/HackathonPage.css'
 import Sidebar from '../Components/Sidebar/Sidebar'
 import Hackathon from '../Components/Hackathon/Hackathon'
 

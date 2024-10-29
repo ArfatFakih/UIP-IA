@@ -1,0 +1,23 @@
+.profile-main{
+    background-color: #64062B;
+    display: flex;
+}
+
+.profile-main-part1{
+    margin-top: 40px;
+}
+
+.profile-main-part1-one{
+    margin-top: 10px ;
+}
+
+.profile-main-part2{
+    display: flex;
+    background-color: #ffd6e8;
+    padding: 10px;
+    margin: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 0px;
+    border-radius: 30px;
+}

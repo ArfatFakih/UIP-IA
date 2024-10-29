@@ -8,15 +8,15 @@ const Navbar = () => {
       <div className="navbar-logo">HackConnect</div>
       <ul className="navbar-links">
         <li><Link style={{ textDecoration: 'none', color: 'white'}} to='/'>Home</Link></li>
-        <li><Link style={{ textDecoration: 'none', color: 'white'}} to='/chat'>Chat</Link></li>
+        <li>Chat</li>
         <li>Teams</li>
         <li>Explore Students</li>
         <li><Link style={{ textDecoration: 'none', color: 'white'}} to='/hackathon'>Hackathons</Link></li>
-        <li>My Profile</li>
+        <li><Link style={{ textDecoration: 'none', color: 'white'}} to='/profile'>My Profile</Link></li>
       </ul>
       <div className="navbar-buttons">
-        <button className="login-btn">LOGIN</button>
-        <button className="signup-btn">Sign UP</button>
+        <button className="login-btn"><Link style={{ textDecoration: 'none', color: 'white'}} to='/login'>LOGIN</Link></button>
+        <button className="signup-btn"><Link style={{ textDecoration: 'none', color: 'black'}} to='/signup'>Sign UP</Link></button>
       </div>
     </nav>
   )
