@@ -1,4 +1,3 @@
-// Hackathon.js
 import React, { useState, useEffect } from 'react';
 import '../Hackathon/Hackathon.css';
 import HackathonCard from '../HackathonCard/HackathonCard';

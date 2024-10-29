@@ -1,25 +1,20 @@
-/* Container styling for sidebar and content */
 .chat-container {
     margin: 0px;
     display: flex;
     background-color: #64062B ;
   }
   
-  /* Sidebar styling */
   .chat-sidebar {
-    width: 250px; /* Adjust based on your sidebar width */
-    /* background-color: #4A003E; */
+    width: 250px; 
     padding: 20px;
     color: white;
   }
   
-  /* Content styling */
   .chat-content {
     flex-grow: 1; 
     padding: 20px;
   }
-  
-  /* Hackathon section adjustments */
+
   .chat-hackathon-section {
     background-color: #3B002E;
     color: white;

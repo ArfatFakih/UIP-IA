@@ -1,4 +1,3 @@
-// HackathonCard.js
 import React from 'react';
 import '../HackathonCard/HackathonCard.css';
 

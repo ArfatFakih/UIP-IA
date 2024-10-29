@@ -38,7 +38,7 @@ const Sidebar = () => {
           <li>
             <Link style={{ textDecoration: 'none', color: 'white'}} to='/hackathon'>
               <img src= {profile_edit} alt="Hackthons" />
-              Hackthons
+              Hackathons
             </Link>
           </li>
           <li>
