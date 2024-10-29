@@ -68,7 +68,7 @@ const Login = () => {
           <div className="loginsignup-fields">
             {state==="Sign Up"?<div className="inputbox">
               <input name='username' value={formData.username} onChange={changeHandler} type="text" required />
-              <label>Name</label>
+              <label>UserName</label>
             </div>:<></>}
             <div className="inputbox">
               <input name='email' value={formData.email} onChange={changeHandler} type="text" required />
